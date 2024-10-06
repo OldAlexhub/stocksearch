@@ -42,7 +42,7 @@ const Stocks = () => {
       );
 
       if (response.status === 200) {
-        console.log("Response Data:", response.data);
+        // console.log("Response Data:", response.data);
         setResults(response.data.result); // Accessing the result object here
       }
     } catch (error) {
