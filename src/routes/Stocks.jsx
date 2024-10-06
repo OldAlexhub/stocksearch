@@ -286,7 +286,7 @@ const Stocks = () => {
           </div>
         </>
       ) : (
-        <p>
+        <p style={{ textAlign: "center" }}>
           Please enter a stock ticker symbol to see predictions and other data.
         </p>
       )}
