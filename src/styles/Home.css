@@ -1,0 +1,46 @@
+.futuristic-container {
+  font-family: "Roboto", sans-serif;
+  color: #e0e0e0;
+}
+
+.futuristic-title {
+  font-size: 3rem;
+  color: #00f2fe;
+  text-shadow: 0 0 10px #00f2fe, 0 0 20px #00f2fe;
+}
+
+.futuristic-lead {
+  font-size: 1.5rem;
+  color: #b0c4de;
+  margin-bottom: 40px;
+}
+
+.futuristic-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 25px rgba(0, 242, 254, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.futuristic-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 242, 254, 0.3);
+}
+
+.futuristic-card-title {
+  font-size: 1.75rem;
+  color: #00f2fe;
+}
+
+.futuristic-card-text {
+  font-size: 1rem;
+  color: #b0c4de;
+}
+
+.futuristic-img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
